@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validations</title>
+</head>
+<body style="background-color: aqua;">
+    <center>
+    <form>
+        <table>
+        <tr><td><label>Name: </label></td><td><input type='textfield' id='name' required></td></tr>
+        <tr><td><label>Adhaar: </label></td><td><input type='textfield' id='adhaar' maxlength='12' minlength='12' pattern="[0-9]+"></td></tr>
+        <tr><td><label>Mobile: </label></td><td><input type='textfield' id='mobile' maxlength='10' minlength='10' pattern="[0-9]+"></td></tr>
+        <tr><td><label>DOB: </label></td><td><input type='date' id='dob'></td></tr>
+        <tr><td><label>Email: </label></td><td><input type='email' id='email'></td></tr>
+        <tr><td><label>FB URL: </label></td><td><input type='textfield' id='fb'></td></tr>
+        <tr><td><label>Password: </label></td><td><input type='password' id='password'></td></tr>
+        <tr><td><label>Confirm Pass: </label></td><td><input type='password' id='confirmpass'></td></tr>
+        </table>
+        <button type='submit'>Submit</button>
+    </form>
+    </body>
+</center>
+    <script src="mad.js">
+    </script>
+</body>
+</html>

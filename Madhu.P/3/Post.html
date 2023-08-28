@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST Request Example</title>
+</head>
+<body>
+    <center>
+    <h1>POST</h1>
+    <form id="postForm">
+        <label for="title">Title:</label>
+        <br>
+        <input type="text" id="title" name="title" required>
+        <br>
+        <br>
+        <label for="body">Data:</label>
+        <br>
+        <textarea id="body" name="body" required></textarea>
+        <br>
+        <br>
+        <button type="button" onclick="submit()">Submit</button>
+    </form>
+    </center>
+    <div id="response"></div>
+
+    <script src="mad.js">
+    </script>
+</body>
+</html>
